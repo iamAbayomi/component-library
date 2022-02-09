@@ -1,0 +1,53 @@
+{
+  "name": "rs-design-system",
+  "version": "1.0.0",
+  "description": "A react component and design system",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "react-scripts start"
+  },
+  "author": "iamabayomi",
+  "license": "MIT",
+  "devDependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@mui/system": "^5.4.1",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/mui-datatables": "^3.7.7",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.22",
+    "bootstrap": "^5.1.3",
+    "mui-datatables": "^4.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-circular-progressbar": "^2.0.4",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0",
+    "rollup": "^2.67.1",
+    "rollup-plugin-dts": "^4.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@mui/styles": "^5.4.1"
+  }
+}
