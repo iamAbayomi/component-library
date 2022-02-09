@@ -29,13 +29,14 @@ export default [
             commonjs(),
             typescript({ tsconfig: "./tsconfig.json" }),
             terser(),
-            
+            css()
         ],
         external: ["react", "react-dom", "styled-components"]
     },
     {
         input: "dist/esm/types/index.d.ts",
         output: [{ file: "dist/index.d.ts", format: "esm" }],
-        plugins: [dts(), css()],
+        plugins: [dts()],
+        external: [/\.css$/],  
     },
 ];
