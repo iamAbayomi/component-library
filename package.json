@@ -1,9 +1,13 @@
 {
   "name": "rs-design-system",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A react component and design system",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
@@ -12,7 +16,8 @@
   "author": "iamabayomi",
   "license": "MIT",
   "devDependencies": {
-    "@material-ui/core": "^4.12.3",
+    "@mui/core": "^5.0.0-alpha.54",
+    "@mui/material": "^5.4.1",
     "@mui/styles": "^5.4.1",
     "@mui/system": "^5.4.1",
     "@rollup/plugin-commonjs": "^21.0.1",
