@@ -1,4 +1,4 @@
-import { createTheme } from "@material-ui/core";
+import { createTheme } from "@mui/material";
 import { ThemeProvider } from "@mui/system";
 import MUIDataTable from  "mui-datatables";
 import React from "react";
@@ -10,13 +10,7 @@ interface props {
 
 const Table: React.FC<props> = (props) => {
     const getMuiTheme = () => createTheme({
-        overrides: {
-            MUIDataTableBodyCell: {
-                root: {
-                    backgroundColor: '#FF0000'
-                }
-            }
-        }
+        
     })
 
     return(
