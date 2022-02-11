@@ -8,7 +8,7 @@ import DropDown from "./components/Dropdown/DropDown";
 import InputField from "./components/InputField/InputField";
 import Modal from "./components/Modal/Modal";
 import OverviewCard from "./components/OverviewCard/OverviewCard";
-import Table from "./components/Table/Table";
+// import Table from "./components/Table/Table";
 import Typography from "./components/Typograpghy/Typography";
 
 
@@ -22,5 +22,5 @@ export {DropDown}
 export {InputField}
 export {Modal}
 export {OverviewCard}
-export {Table}
+// export {Table}
 export {Typography}
