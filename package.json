@@ -9,7 +9,7 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
+    "test": "react-scripts test",
     "build": "rollup -c",
     "start": "react-scripts start"
   },
